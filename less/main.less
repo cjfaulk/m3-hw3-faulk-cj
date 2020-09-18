@@ -1,7 +1,16 @@
-figure {
-  text-align: center;
+@import 'mixins';
+
+.hide {
+  display: none;
 }
 
-.row {
-  
+h2 {
+  .heading-font();
+  span {
+    .heading-span();
+  }
+}
+
+figure {
+  text-align: center;
 }
